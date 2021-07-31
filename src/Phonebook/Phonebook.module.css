@@ -1,0 +1,47 @@
+.phonebook__form {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+}
+
+.phonebook__label {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.phonebook__label:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.phonebook__input {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.phonebook__button_form {
+  width: 150px;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.phonebook__list {
+  width: 400px;
+  padding: 0;
+}
+
+.phonebook__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.phonebook__button {
+  width: 150px;
+  cursor: pointer;
+}
